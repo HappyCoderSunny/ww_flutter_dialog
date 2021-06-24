@@ -58,27 +58,37 @@ WWDialog.showMiddleDialog(
 ![middle2](https://user-images.githubusercontent.com/12085000/123234123-41ca4c00-d50d-11eb-9708-907847c82082.png)
 ![middle3](https://user-images.githubusercontent.com/12085000/123234142-44c53c80-d50d-11eb-8bc3-098c096e379b.png)
 
+##### 底部弹窗调用： WWDialog.showBottomDialog
+支持配置背景颜色、字体大小、颜色、字重、按钮排列方式、标题、内容、按钮支持完全自定义、点击的回调等～
+```
+WWDialog.showBottomDialog(
+                  context,
+                  content: '确认删除该条信息吗？',
+                  contentColor: colorWithHex9,
+                  contentFontSize:13.0,
+                  location: DiaLogLocation.bottom,
+                  arrangeType: buttonArrangeType.column,
+                  buttons: ['默认按钮1','默认按钮2'],
+                  otherButtonFontSize: 20.0,
+                  otherButtonFontWeight:FontWeight.w400
+              );
+```
+部分展示效果：
 
+![bottom1](https://user-images.githubusercontent.com/12085000/123234393-7d651600-d50d-11eb-9ac0-b37f3663ee6b.png)
+![bottom2](https://user-images.githubusercontent.com/12085000/123234412-80f89d00-d50d-11eb-8e63-7f72c1ce2baf.png)
+![bottom3](https://user-images.githubusercontent.com/12085000/123234422-82c26080-d50d-11eb-8aa7-e8d2aed1b102.png)
 
+### ww_middle_bottom_dialog_widget.dart
+中间、底部弹窗的弹窗widget
 
+### ww_top_dialog_widget.dart
+顶部弹窗的弹窗widget
 
+### ww_top_dialog_item_data.dart
+顶部弹窗的数据源数据模型item
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+https://user-images.githubusercontent.com/12085000/123235507-84405880-d50e-11eb-8f6c-f03806f0582a.mp4
 
 
 
